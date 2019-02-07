@@ -1,0 +1,255 @@
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git init
+Initialized empty Git repository in C:/Users/BZW000/Desktop/git-hub1/.git/
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        text.html
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$   git config --global user.name "ankitsinghdangi"
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$  git config --global user.email "atankitsingh315@gmail.com"
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git add text.txt
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m "this is my messagw"
+[master (root-commit) 74f3f91] this is my messagw
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text.txt
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git log
+commit 74f3f9194b876224a9eccacaeee73839d2c78232 (HEAD -> master)
+Author: ankitsinghdangi <atankitsingh315@gmail.com>
+Date:   Sun Feb 3 23:09:17 2019 -0800
+
+    this is my messagw
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.txt
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ ign
+bash: ign: command not found
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+
+
+
+
+
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git ignore-index.txt
+git: 'ignore-index.txt' is not a git command. See 'git --help'.
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git ignore--index.txt
+git: 'ignore--index.txt' is not a git command. See 'git --help'.
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ touch .gitignore index.txt
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        index.txt
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        index.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        text.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m"this is the msg"
+On branch master
+Untracked files:
+        .gitignore
+        text.html
+
+nothing added to commit but untracked files present
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git log
+commit 74f3f9194b876224a9eccacaeee73839d2c78232 (HEAD -> master)
+Author: ankitsinghdangi <atankitsingh315@gmail.com>
+Date:   Sun Feb 3 23:09:17 2019 -0800
+
+    this is my messagw
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git add .
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m "this is the last commit"
+[master 882f1d8] this is the last commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 text.html
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git add .
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m "this is the last commit"
+On branch master
+nothing to commit, working tree clean
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m "this is the last commlit"
+On branch master
+nothing to commit, working tree clean
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git commit -m "this is the last commlit"
+On branch master
+Changes not staged for commit:
+        deleted:    .gitignore
+
+Untracked files:
+        index.txt
+
+no changes added to commit
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    .gitignore
+        modified:   text.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$ git mv text.html info.html
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$  git config --global --list
+user.email=atankitsingh315@gmail.com
+user.name=ankitsinghdangi
+
+BZW000@DESKTOP-2C6U0RM MINGW64 ~/Desktop/git-hub1 (master)
+$
